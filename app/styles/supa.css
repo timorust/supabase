@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.content {
+  opacity: 0; /* התחלת המראה ב-0 */
+  animation: fadeIn 1s forwards; /* השמה במשך 1 שנייה עם השהיית סוף */
+
+  /* קריאות ל-@keyframes לאנימציה */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px); /* נעילת הרשימה מעלה */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.country-item:last-child {
+  border-bottom: none;
+}
+
+.country-item:hover {
+  background-color: #f5f5f5;
+}
