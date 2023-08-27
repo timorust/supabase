@@ -10,6 +10,13 @@
     --foreground: 200 50% 3%;
   }
 
+  hr {
+    color: #ccc;
+    background-color: #ccc;
+    height: 1px;
+    border: none;
+  }
+
   @media (prefers-color-scheme: dark) {
     :root {
       /* --background: 200 50% 3%; */
