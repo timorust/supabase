@@ -20,7 +20,9 @@ export default function PropsAndChildComponent() {
         integer={22}
         component={FloatingComponent22}
       ></PropsComponent>
-      {/* <FloatingComponent /> */}
+      <FloatingComponent />
+      <FloatingComponent1 />
+      <FloatingComponent22 />
     </>
   );
 }
