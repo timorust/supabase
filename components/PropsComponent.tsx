@@ -2,7 +2,7 @@ export default function PropsComponent() {
   return (
     <>
       <section className="title">
-        T<h2>he Props Component !</h2>
+        <h2>The Props Component !</h2>
       </section>
     </>
   );
